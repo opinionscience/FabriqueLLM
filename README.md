@@ -33,7 +33,7 @@ FabriqueLLM include a series of documented code notebook in French and English t
 The three variants are
 * **Fine_tune_llama_7b.ipynb**: Fine-tuning on the lightest version of Llama-1 (7B) Probably the best place to start ([https://colab.research.google.com/drive/1NQ30BCuOTXtUZ14tbqmW13-ZZ6SPyg1L?usp=sharing](Google Colab))
 * **Fine_tune_llama_13b.ipynb**: Fine-tuning of the most advanced version of Llama-1 (13B) that can still easily run on Colab. It will likely requires Google Colab pro due to the memory requirements ([https://colab.research.google.com/drive/1YWuSd82QyrjWtsAOGCsacWa87SVqzZK3?usp=sharing](Google Colab))
-* * **Fine_tune_llama_2_7b_fr**: Fine-tuning of the lightes version of Llama-2 (7B). For now it will likely requires Google Colab pro but the script is still new, experimental and very likely to improve in the coming weeks. ([https://colab.research.google.com/drive/1l1s00SNwx_S-XmTPoFNhx2LVxi-6v0hB?usp=sharing](Google Colab))
+* **Fine_tune_llama_2_7b_fr**: Fine-tuning of the lightes version of Llama-2 (7B). For now it will likely requires Google Colab pro but the script is still new, experimental and very likely to improve in the coming weeks. ([https://colab.research.google.com/drive/1l1s00SNwx_S-XmTPoFNhx2LVxi-6v0hB?usp=sharing](Google Colab))
 
 ## MPT
 To come later.
