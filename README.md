@@ -28,7 +28,12 @@ With a very specific dataset of French 17th century novel the model will assimil
 > **Output (Falcon-Novel17)**: Le moyen le plus aisé pour aller sur la Lune que je connois & pour lequel j'en ai l'honneur de vous le dire est celui qui consiste à nous rendre dans les airs en nous tirant par un canon. Cette machine ſe trouve dans les airs & les nuages de tous les pays. Il nous faut seulement faire un trou dans le vaisſe & nous placer dedans pour être tirés plus haut que la Montagne & dans lequel nous pouvons nous reprendre en toute liberté. Ce moyen convient à tout le monde.
 
 ## Llama
-To come later.
+FabriqueLLM include a series of documented code notebook in French and English to fine-tune Llama 1 and the the newest version released on July, 18th 2023, Llama 2. Both are quantized at 4bit. The simplest fine-tuning (one epoch) should run in 1h15-1h30 on the free version of Google Colab and in around 15 minutes on Google Colab Pro+ (with a A100 with 40 Go of Vram).
+
+The three variants are
+* **Fine_tune_llama_7b.ipynb**: Fine-tuning on the lightest version of Llama-1 (7B) Probably the best place to start ([https://colab.research.google.com/drive/1NQ30BCuOTXtUZ14tbqmW13-ZZ6SPyg1L?usp=sharing](Google Colab))
+* **Fine_tune_llama_13b.ipynb**: Fine-tuning of the most advanced version of Llama-1 (13B) that can still easily run on Colab. It will likely requires Google Colab pro due to the memory requirements ([https://colab.research.google.com/drive/1YWuSd82QyrjWtsAOGCsacWa87SVqzZK3?usp=sharing](Google Colab))
+* * **Fine_tune_llama_2_7b_fr**: Fine-tuning of the lightes version of Llama-2 (7B). For now it will likely requires Google Colab pro but the script is still new, experimental and very likely to improve in the coming weeks. ([https://colab.research.google.com/drive/1l1s00SNwx_S-XmTPoFNhx2LVxi-6v0hB?usp=sharing](Google Colab))
 
 ## MPT
 To come later.
